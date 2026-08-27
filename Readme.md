@@ -17,6 +17,7 @@
   - Strava
     - Runs
 - Functions
+
   ### Phase 1
   - Calories
     - Track Net Calories on a daily to weekly basis vs weight change & weight itself
@@ -53,6 +54,7 @@
   - Technical stuff
     - create DB index
     - use OOP
+
   ### Phase 2
   - Correlations
     - scatter plots
@@ -65,6 +67,7 @@
       - Protein
       - Run / lift
       - Sleep
+
   ### Phase 3
   - Possible AI/ML
   - Recovery
@@ -74,3 +77,10 @@
       - HRV
       - Restinh HR
       - Body Battery
+
+- Learning order
+  - FAST API
+  - Fake Endpoint for SQL
+  - Display using Next.js
+  - Real Postgre SQL
+  - Integrate Hevy
