@@ -1,0 +1,76 @@
+- Stack
+  - Next.js → frontend
+  - Fast API Python Backend
+  - Postgre SQL
+- Apps to Integrate
+  - Hevy
+    - Workouts
+  - MFP
+    - Calories In
+    - Macros
+    - Weight
+  - Garmin
+    - Calories out
+    - Stress
+    - Sleep score
+    - HRV
+  - Strava
+    - Runs
+- Functions
+  ### Phase 1
+  - Calories
+    - Track Net Calories on a daily to weekly basis vs weight change & weight itself
+      - expected wieght loss vs actual weight loss
+    - Info needed
+      - cals consumed
+      - cals burned
+      - Macros
+        - average protein & carbs
+  - Gym
+    - weekly volume for muscle groups
+    - Be able to put in training breaks
+    - Info needed
+      - 1RM estimate
+      - Best weight
+      - Best reps
+      - Volume
+      - Volume per session
+      - Volume per week
+      - Rep PRs
+      - Weight PRs
+  - Running
+    - Pace vs HR
+    - zones & paces
+    - Info needed
+      - Distance
+      - Pace
+      - Heart rate
+      - Elevation
+      - Cadence
+      - Running power if available
+      - VO₂max
+      - Training load
+  - Technical stuff
+    - create DB index
+    - use OOP
+  ### Phase 2
+  - Correlations
+    - scatter plots
+  - Improvement
+    - Weeekly trends on improvement
+  - Widget on iPhone to show net calories left to be burned / extra for week
+    - Show
+      - Weekly / Daily summary
+      - Calories
+      - Protein
+      - Run / lift
+      - Sleep
+  ### Phase 3
+  - Possible AI/ML
+  - Recovery
+    - Running volume + weekly lift volume / frequancy
+    - Recvoery
+      - Sleep
+      - HRV
+      - Restinh HR
+      - Body Battery
