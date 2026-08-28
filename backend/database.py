@@ -30,10 +30,10 @@ class Workout(Base):
 ##Create column
 # Base.metadata.create_all(engine)
 
-with SessionLocal() as session:
-    #Create object of workout
-    workout1 = Workout(exercise = "evening workout2", weight = 50,reps = 20)
-    workout2 = Workout(exercise = "night workout", weight = 50,reps = 20)
-    #Insert object and commit
-    session.add_all([workout1, workout2])
-    session.commit()
+# with SessionLocal() as session:
+#     #Create object of workout
+#     workout1 = Workout(exercise = "evening workout2", weight = 50,reps = 20)
+#     workout2 = Workout(exercise = "night workout", weight = 50,reps = 20)
+#     #Insert object and commit
+#     session.add_all([workout1, workout2])
+#     session.commit()
