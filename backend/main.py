@@ -10,6 +10,3 @@ app.include_router(workout_router)
 @app.get("/")
 def root():
     return {"message": "Hello World"}
-
-
-

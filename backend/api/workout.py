@@ -1,26 +1,13 @@
-from backend.database import SessionLocal, Workout
+from backend.database import SessionLocal
 from sqlalchemy import select
 from fastapi import APIRouter
-from pydantic import BaseModel
+from backend.models.workout import Workout
+from backend.schemas.workout import WorkoutSchema, WorkoutCreate
 
 
 workout_router = APIRouter()
 
-#Create pydantic schema for data leaving API
-class WorkoutSchema(BaseModel):
-    id: int
-    weight: float
-    reps: int
-    exercise: str
 
-    class Config:
-        from_attributes = True
-
-#Pydantic model for data entering API
-class WorkoutCreate(BaseModel):
-    weight: float
-    reps: int
-    exercise: str
 
 #set workout route
 @workout_router.get("/api/get_workouts", response_model=list[WorkoutSchema]) 
